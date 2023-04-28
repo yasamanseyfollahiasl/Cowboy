@@ -65,7 +65,7 @@ public class Player : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Space) && Ground)
         {
-          myRig.velocity = new Vector2(myRig.velocity.x, 5);
+          myRig.velocity = new Vector2(myRig.velocity.x, 7);
           myanim.Play("jump");
         _AudioPlayer.PlayOneShot(Sound_jump);
         }
@@ -124,7 +124,7 @@ public class Player : MonoBehaviour
     {
         if(Ground)
       {
-           myRig.velocity = new Vector2(myRig.velocity.x, 5);
+           myRig.velocity = new Vector2(myRig.velocity.x, 7);
            myanim.Play("jump");
           _AudioPlayer.PlayOneShot(Sound_jump);
        }
