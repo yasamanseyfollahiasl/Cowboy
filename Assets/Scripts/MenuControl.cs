@@ -9,4 +9,9 @@ public class MenuControl : MonoBehaviour
     {
       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    public void Click_Next_Level(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    
+    }
 }
